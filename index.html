@@ -4,125 +4,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Main Template CSS File -->
-    <link rel="stylesheet" href="css/kasper.css">
-    <!-- Render All Elements Normally -->
+    <!-- Main Templete Css File -->
+    <link rel="stylesheet" href="css/leon.css">
+    <!-- Render All Element Normally -->
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- Font Awesome Library -->
+    <!-- Font Awesome library -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- Font Files -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Kasper</title>
+    <title>Leon</title>
 </head>
 
 <body>
     <!-- Start Header -->
-    <header>
+    <div class="header">
         <div class="container">
-            <a href="#" class="logo">
-                <img src="./images/logo (1).png" alt="Logo">
-            </a>
-            <nav>
-                <i class="fas fa-bars toggle"></i>
+            <img src="./images/logo.png" alt="Logo" class="logo">
+            <div class="links">
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li> <a href="#About">About</a></li>    
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="search-icon">
-                    <i class="fas fa-search"></i>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- End Header -->
-
-    <!-- Start Landing -->
-    <div class="landing">
-        <div class="overlay"></div>
-        <div class="text">
-            <div class="content">
-                <h1>Hello World! <br> We Are Kasper We Make Art.</h1>
-                <p>Public art is a reflection of how we see the world – the artist’s response to our time and place
-                    combined with our own sense of who we are.</p>
-                <!-- Removed closing </ul> tag as it's unnecessary here -->
             </div>
         </div>
-        <i class="fas fa-angle-right right"></i>
-        <i class="fas fa-angle-left left"></i>
-        <ul class="bullets">
-            <li></li>
-            <li class="active"></li>
-            <li></li>
-        </ul>
     </div>
-    <!-- End Landing -->
-    <!-- Start Services -->
-    <div class="services">
+    <!-- End Header -->
+    <!-- Start Landing Section -->
+    <div class="landing">
+        <div class="intro-text center">
+            <h1>Hello There</h1>
+            <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+        </div>
+    </div>
+    <!-- End Landing Section -->
+    <!-- Start features  -->
+    <div class="feature">
         <div class="container">
-            <div class="main-heading">
-                <h2>Services</h2>
-                <p>"Elevate your website with our all-in-one web development services: responsive design, custom
-                    solutions, e-commerce, full-stack development, UI/UX design, and maintenance. We create beautiful,
-                    functional sites that drive results and keep you ahead."
-                </p>
+            <div class="feat">
+                <i class="fas fa-magic"></i>
+                <h3>Tell Us Your Idea</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ipsum dolor sed officiis
+                    iure perspiciatis ab et fugiat dolorem assumenda voluptas
+                    recusandae repellendus sapiente magni eius?</p>
             </div>
-            <div class="services-container">
-                <div class="serv-box">
-                    <i class="fas fa-desktop"></i>
-                    <div class="text">
-                        <h2>Desktop Solutions</h2>
-                        <p>Enhance your workspace with our cutting-edge desktop solutions. We offer expertly designed
-                            and
-                            optimized setups to boost productivity and efficiency, whether for home offices or corporate
-                            environments. From custom configurations to seamless integrations, our solutions ensure you
-                            have
-                            the perfect desktop experience tailored to your needs</p>
+            <div class="feat">
+                <i class="far fa-gem"></i>
+                <h3>We Will Do All The Work</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ipsum dolor sed officiis
+                    iure perspiciatis ab et fugiat dolorem assumenda voluptas
+                    recusandae repellendus sapiente magni eius?</p>
+            </div>
+            <div class="feat">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Your Product is Worldwide</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus ipsum dolor sed officiis
+                    iure perspiciatis ab et fugiat dolorem assumenda voluptas
+                    recusandae repellendus sapiente magni eius?</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End features -->
+    <!-- Start Services -->
+    <div class="services" id="Services">
+        <div class="container">
+            <h2 class="special-heading">Services</h2>
+            <p>Don't be busy, be productive</p>
+            <div class="servcies-content">
+                <div class="col">
+                    <!-- Start Services -->
+                    <div class="serv">
+                        <i class="fas fa-palette"></i>
+                        <div class="text">
+                            <h3>Graphic Design</h3>
+                            <p>Graphic design is the process of visual communication and problem-solving using one or
+                                more of typography, photography and illustration.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="serv-box">
-                    <i class="fas fa-cog"></i>
-                    <div class="text">
-                        <h2>System Configuration</h2>
-                        <p>Optimize your systems with our expert configuration services. We handle all the technical
-                            details
-                            to ensure your systems run smoothly, efficiently, and are perfectly tuned to meet your
-                            operational needs</p>
+                    <div class="serv">
+                        <i class="fab fa-sketch"></i>
+                        <div class="text">
+                            <h3>UI & UX</h3>
+                            <p>Process of enhancing user satisfaction with a product by improving the usability,
+                                accessibility, and pleasure provided in the interaction.</p>
+                        </div>
                     </div>
+                    <!-- End Services -->
                 </div>
-                <div class="serv-box">
-                    <i class="fas fa-camera"></i>
-                    <div class="text">
-                        <h2>Photography Services</h2>
-                        <p>Capture stunning visuals with our professional photography services. From high-quality
-                            product
-                            shots to dynamic event coverage, we provide expert photography that highlights your brand
-                            and
-                            preserves your memorable moments.</p>
+                <div class="col">
+                    <!-- Start Services -->
+                    <div class="serv">
+                        <i class="fas fa-vector-square fa-2x"></i>
+                        <div class="text">
+                            <h3>Web Design</h3>
+                            <p>
+                                Web design encompasses many different skills and disciplines in the production and
+                                maintenance of
+                                websites.
+                            </p>
+                        </div>
                     </div>
+                    <div class="serv">
+                        <i class="fas fa-pencil-ruler fa-2x"></i>
+                        <div class="text">
+                            <h3>Web Development</h3>
+                            <p>
+                                Web development is a broad term for the work involved in developing a web site for the
+                                Internet or an
+                                intranet.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Services -->
                 </div>
-                <div class="serv-box">
-                    <i class="fas fa-tools"></i>
-                    <div class="text">
-                        <h2>Technical Support</h2>
-                        <p>Keep your systems running smoothly with our comprehensive technical support. Our expert team
-                            is
-                            ready to tackle any issues, perform essential maintenance, and ensure your operations are
-                            always
-                            up and running efficiently.</p>
+                <div class="col-image">
+                    <div class="image-ser">
+                        <img src="./images/450px-Velebit_mountain.jpg" alt="Photo">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <!-- End Services -->
+    <!-- Start Portfolio -->
+    <div class="portfolio" id="Portfolio">
+        <div class="container">
+            <h2 class="special-heading">Portfolio</h2>
+            <p>If you do it right, it will last forever.</p>
+            <div class="portflio-content">
+                <div class="card">
+                    <img src="./images/box-one.jpg" alt="Photo">
+                    <h3>Porject Here</h3>
+                    <p>My creative ability is very difficult to measure because it can manifest in so many surprising
+                        and.
+                    </p>
+                </div>
+                <div class="card"><img src="./images/box-two.jpg" alt="Photo">
+                    <h3>Porject Here</h3>
+                    <p>My creative ability is very difficult to measure because it can manifest in so many surprising
+                        and.
+                    </p>
+                </div>
+                <div class="card"><img src="./images/box-three.jpg" alt="Photo">
+                    <h3>Porject Here</h3>
+                    <p>My creative ability is very difficult to measure because it can manifest in so many surprising
+                        and.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio -->
+    <!-- Start About -->
+    <div class="about" id="About">
+        <div class="container">
+            <h2 class="special-heading">About</h2>
+            <p>Less is more work</p>
+            <div class="about-content">
+                <div class="image-container">
+                    <img src="./images/about.jpg" alt="Photo">
+                </div>
+                <div class="about-p">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit
+                        cum non, fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut
+                        excepturi iusto
+                    </p>
+                    <hr>
+                    <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate
+                        tempora velit
+                        cum non, fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut
+                        excepturi iusto laudantium!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start Contact -->
+    <div class="contact" id="Contact">
+        <div class="container">
+            <h2 class="special-heading">Contact</h2>
+            <p>We are born to create</p>
+            <div class="contact-content">
+                <p>Feel free to drop us a line at:</p>
+                <p>abdullaalfie62@gmail.com</p>
+                <p>Find Us On Social Networks <i class="fab fa-youtube"></i> <i class="fab fa-twitter"></i></i>
+                    <i class="fab fa-facebook-f"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">&copy; 2021 <span>Leon</span> All Right Reserved</div>
+    <!-- End Footer -->
 </body>
 
 </html>
